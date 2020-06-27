@@ -1,0 +1,149 @@
+.mainbody{
+    background-color: #5cdb95;
+}
+
+.mainul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #5cdb95;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.mainul li{
+    float: left;
+    text-decoration: none;
+}
+
+.mainul a:not(.insta1){
+    display: block;
+    padding: 16px;
+    background-color: #5cdb95;
+    color:#05386b;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.mainul a:hover{
+    background-color: #05386b;
+    color: #edf5e1;
+}
+
+.mainlogo{
+    float: right;
+    border-radius: 10px;
+
+}
+.login{
+    float: left;
+  font-size: 20px;
+  color: #edf5e1;
+  }
+  
+  .maindropdown{
+      position: relative;
+      display: inline-block;
+      color: #5cdb95;
+      background-color:#05386b;
+      font-size: 22px;
+      padding: 16px;
+  }
+  
+  .maindropdown:hover{
+      background-color:#05386b;
+      color: #edf5e1;
+  }
+  
+  .mainddcontent {
+      display: none;
+      min-width: 100px;
+      z-index: 1;
+      font-size: 20px;
+      text-align: center;
+      background-color: #5cdb95;
+  }
+  
+  .maindropdown:hover .mainddcontent {
+      display: block;
+      color: #edf5e1;
+      font-size: 20px;
+      text-align: center;
+      background-color: #5cdb95;
+  }
+  .insta1{
+    float: right;
+    padding: 0;  
+}
+.topratedimdb{
+    background-color: #5cdb95;
+    color: #05386b;
+    text-align: center;
+    padding: 50px;
+    font-size: 44px;
+}
+
+.click4youtube1{
+    text-align: center;
+    color: #05386b;
+}
+
+.imdbth{
+    color: #edf5e1;
+    font-size: 25px;
+}
+
+.imdbth2{
+    color: #edf5e1;
+    font-size: 25px; 
+}
+
+.toprow1{
+    text-align: center;
+    font-size: 50px;
+    color: #edf5e1;
+}
+
+.toprow2{
+    text-align: center;
+    font-size: 50px;
+    color: #edf5e1;
+}
+.toprow3{
+    text-align: center;
+    font-size: 50px;
+    color: #edf5e1;
+}
+
+.toprow4{
+    text-align: center;
+    font-size: 50px;
+    color: #edf5e1;
+}
+
+.toprow5{
+    text-align: center;
+    font-size: 50px;
+    color: #edf5e1;
+}
+    
+.topratedtable{
+    border-collapse: collapse;
+    background-color: #05386b;
+}
+
+.topratedtable td,th{
+    border: 3px solid #5cdb95
+}
+
+
+
+
+
+
+
+
+

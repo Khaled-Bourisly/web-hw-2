@@ -1,0 +1,109 @@
+.mainbody{
+    background-color: #5cdb95;
+}
+
+.mainul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #5cdb95;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.mainul li{
+    float: left;
+    text-decoration: none;
+}
+
+.mainul a:not(.insta1){
+    display: block;
+    padding: 16px;
+    background-color: #5cdb95;
+    color:#05386b;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.mainul a:hover{
+    background-color: #05386b;
+    color: #edf5e1;
+}
+
+.mainlogo{
+    float: right;
+    border-radius: 10px;
+
+}
+.login{
+    float: left;
+  font-size: 20px;
+  color: #edf5e1;
+  }
+  
+  .maindropdown{
+      position: relative;
+      display: inline-block;
+      color: #5cdb95;
+      background-color:#05386b;
+      font-size: 22px;
+      padding: 16px;
+  }
+  
+  .maindropdown:hover{
+      background-color:#05386b;
+      color: #edf5e1;
+  }
+  
+  .mainddcontent {
+      display: none;
+      min-width: 100px;
+      z-index: 1;
+      font-size: 20px;
+      text-align: center;
+      background-color: #5cdb95;
+  }
+  
+  .maindropdown:hover .mainddcontent {
+      display: block;
+      color: #edf5e1;
+      font-size: 20px;
+      text-align: center;
+      background-color: #5cdb95;
+  }
+  .dramamoviestext{
+    background-color: #5cdb95;
+    color: #05386b;
+    text-align: center;
+    padding: 50px;
+    font-size: 44px;
+}
+.clickonmovie{
+    text-align: center;
+    color: #05386b;
+}
+* {
+    box-sizing: border-box;
+  }
+.titanic{ 
+float: right;
+    width: 33.33%;
+    padding: 5px;
+}
+.castaway{ 
+    float: left;
+        width: 33.33%;
+        padding: 5px;
+    }
+.dramamoviesrow::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .insta1{
+    float: right;
+    padding: 0;  
+  }
